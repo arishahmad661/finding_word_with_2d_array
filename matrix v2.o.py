@@ -4,7 +4,7 @@ a=[[[' ','ROWS:--','[1]','[2]','[3]','[4]','[5]','[6]'],
    [' ',' ',' M',' N',' O',' P',' Q',' R'],
    [' ',' ',' S',' T',' U',' V',' W',' X'],
    [' ',' ',' Y',' Z','  ','  ','  ','  ']]]
-print("Entert 100 to end the loop.\nSpaces can be give by the row with less elements.")
+print("Entert 100 to end the loop.\nSpaces can be give by the columns with less elements.")
 for i in range(len(a)):
     for j in range(len(a[i])):
         for k in range(len(a[i][j])):
